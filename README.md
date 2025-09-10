@@ -1,4 +1,4 @@
-# Graph-Guided A* with GNN Heuristics
+# GNN-Guided A* For Shortest Distance
 
 This workbook integrates a Graph Neural Network (GNN) as a heuristic function into the A* algorithm, aiming to reduce the number of explored nodes and increase search efficiency.
 
