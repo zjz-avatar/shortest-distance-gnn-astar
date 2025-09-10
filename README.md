@@ -27,8 +27,8 @@ This repository implements a grid-based pathfinding system augmented by Graph Ne
 ```
 ├── create_graph.py           # Builds grid graph with obstacles
 ├── create_data.py            # Generates training samples from landmark pairs
-├── astar.py                  # A* pathfinding implementation
-├── visualize.py              # Functions for plotting graph and results
+├── astar.py                  # Traditional A* pathfinding implementation
+├── gnn_guided_astar.py       # Traditional A* integrated with trained GNN
 ├── main.ipynb                # Notebook: data prep, training, evaluation, visualization
 ├── graph_neural_network/     # GNN implementations and utils
 │   ├── __init__.py
